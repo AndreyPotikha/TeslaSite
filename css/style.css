@@ -74,6 +74,8 @@ hr{
 }
 
 .footer {
+	display: flex;
+	justify-content: space-around;
 	height: 130px;
 	width: 100%;
 	line-height: 35px;
@@ -82,7 +84,7 @@ hr{
 
 .footer-div {
 	display: inline-block;
-	padding-right: 110px;
+	/*padding-right: 110px;*/
 }
 
 .footer ul {
